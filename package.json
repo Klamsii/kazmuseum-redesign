@@ -1,0 +1,16 @@
+{
+  "name": "kazmuseum-local",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "refresh-content": "node scripts/scrape.mjs"
+  },
+  "type": "module",
+  "devDependencies": {
+    "cheerio": "^1.2.0",
+    "vite": "^8.3.4"
+  }
+}
